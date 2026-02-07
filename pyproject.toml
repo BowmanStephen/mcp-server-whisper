@@ -49,6 +49,9 @@ Homepage = "https://github.com/arcaputo3/mcp-server-whisper"
 [project.scripts]
 mcp-server-whisper = "mcp_server_whisper:main"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_server_whisper"]
+
 [tool.ruff]
 line-length = 120
 
